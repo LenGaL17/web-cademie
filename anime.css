@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1500px;
+    min-width: 255px;
+}
+
+header {
+    background-color: #313131;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    color: #ca3e47;
+    text-align: center;
+    width: 95%;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    width: 95%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    list-style-type: none;
+}
+
+header a, header a:link {
+    text-decoration: none;
+    background-color: #ca3e47;
+    padding: 1vw;
+    font-size: 1.5rem;
+    color: #313131;
+}
+
+header a:hover {
+    margin-right: 7px;
+    box-shadow: 10px 5px 5px #414141;
+}
+
+
+main {
+    height: 82%;
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    color: #ca3e47;
+    overflow: scroll;
+    height: 100px;
+}
+
+thead th {
+    font-size: 25px;
+    padding: 5px;
+    background-color: #313131;
+    border-right: 1px solid #525252;
+}
+
+tbody {
+    text-align: center;
+    background-color: #525252;
+}
+
+tbody img {
+    width: 80%;
+    margin: 3px;
+}
+
+tbody td {
+    border: 1px solid #313131;
+}
+
+.pen {
+    width: 50%;
+}
+
+.disclaimer {
+    padding-top: 70px;
+    border: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+article input:checked + label {
+    color: red;
+    display: block;
+}
+
+.reviews p {
+    display: none;
+}
+
+footer {
+    height: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #313131;
+    justify-items: center;
+    overflow: hidden;
+}
+
+footer > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    fill: #ca3e47;
+    width: 3vh;
+    height: 3vh;
+}
+
+svg:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 5px 5px #414141;
+    border-radius: 25%;
+}
