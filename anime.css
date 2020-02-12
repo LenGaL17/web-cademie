@@ -27,6 +27,11 @@ body {
     min-width: 255px;
 }
 
+a, a:link {
+    text-decoration: underline;
+    color: #ca3e47;
+}
+
 header {
     background-color: #313131;
     height: 200px;
