@@ -24,6 +24,8 @@
 
 body {
     min-width: 320px;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 a, a:link {
@@ -90,7 +92,7 @@ main {
 .container {
     width: 95%;
     max-width: 1300px;
-    height: 100%;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -341,6 +343,7 @@ svg:hover {
 }
 
 @media screen and (min-width: 401px) and (max-width: 550px) {
+
     
     .tableHead {
         height: 50px;
