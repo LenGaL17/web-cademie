@@ -205,18 +205,19 @@ svg:hover {
 @media screen and (max-width: 700px) {
 
     main {
-        height: auto;
+        padding-bottom: 75px;
     }
 
     .container {
         height: 450px;
         flex-wrap: wrap;
+        box-sizing: border-box;
         flex-direction: row;
-        padding: 7px 0;
+        margin: 0 0;
     }
 
     .img, .txt {
-        height: 45%;
+        height: 40%;
     }
 
     .txt {
