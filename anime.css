@@ -112,7 +112,7 @@ main {
 .tableHead {
     height: 80px;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     font-family: 'SourceSans', sans-serif;
 }
 
