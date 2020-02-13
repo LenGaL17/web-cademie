@@ -23,73 +23,76 @@
         </header>
         <main> 
             <div class="container">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th width="10%"></th>
-                                <th width="25%">Nom</th>
-                                <th width="25%">Manga</th>
-                                <th width="25%">Studio</th>
-                                <th width="25%">Note (/10)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id='aot'> 
-                                <td><img src='./img/shingeki.jpg' /></td>
-                                <td class="name"><a href="manga.html#aot">Shingeki no Kyojin</a> <br> Attack on titan<br><em>(licence Wakanim)</em></td>
-                                <td>29 tomes en VO (Kodansha)<br>28 en VF (Pika)</td>
-                                <td>Wit Studio</td>
-                                <td>8.47 (MAL)<br>9.2 (Nautijon)<br>9</td>
-                             </tr>
-                             <tr>
-                                <td><img src="./img/opm.jpg" /></td>
-                                <td class="name">One Punch Man<br><em>(licence ADN)</em></td>
-                                <td>20 tomes en VO (Shueisha)<br>20 en VF (Kurokawa)</td>
-                                <td>Mad House<br>J.C Staff</td>
-                                <td>S1 puis S2<br>8.70/7.56 (MAL)<br>8.82/7.73 (Nautijon)<br>8.5/5.5</td>
-                             </tr>
-                             <tr id="kny">
-                               <td><img src="./img/kny.jpg" /></td>
-                               <td class="name"><a href="manga.html#kny">Kimetsu no Yaiba</a><br>Demon Slayer<br><em>(licence Wakanim)</em></td>
-                               <td>17 tomes en VO (Shueisha)<br>4 tomes en VF (Panini)</td>
-                               <td>Ufotable</td>
-                               <td>8.96 (MAL)<br>9.38 (Nautijon)<br>9</td>
-                            </tr>
-                             <tr>
-                               <td><img src="./img/arifureta.jpg" /></td>
-                               <td class="name">Arifureta Shokugyou de Sekai Saikyou<br>(Arifureta)<br><em>(licence Wakanim)</em></td>
-                               <td>5 tomes en VO (OVERLAP)<br><em>Pas de sortie Fr</em></td>
-                               <td>asread<br> WHITE FOX</td>
-                               <td>6.48 (MAL)<br>7.26 (Nautijon)<br>4</td>
-                            </tr>
-                             <tr>
-                               <td><img src="./img/anohana.jpg" /></td>
-                               <td class="name">Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai<br>(Anohana)<br><em>(Wakanim/Netflix/Amazon)</em></td>
-                               <td>3 tomes en VO(Shueisha)<br>3 tomes en VF (Panini)<br><em>Oeuvre terminé.</em></td>
-                               <td>A1-Picture</td>
-                               <td>8.51 (MAL)<br>8.76 (Nautijon)<br>8.5</td>
-                            </tr>
-                               <tr><td class='disclaimer' colspan="7"><h3><strong>!/*DISCLAiMER*/!</strong><br>Les oeuvres ci-dessus ne sont pas ordre de préférence, mon avis est subjectif c'est a prendre en considération.</h3></td></tr>
-                        </tbody>
-                    </table>
-
-                    <article>
-
-                        <input type="radio" name='check' id="1"><label for="1">1</label>
-                        <input type="radio" name='check' id="2"><label for="2">2</label>
-                        <input type="radio" name='check' id="3"><label for="3">3</label>
-                        <input type="radio" name='check' id="4"><label for="4">4</label>
-                        <input type="radio" name='check' id="5"><label for="5">5</label>
-
-                        <div class='review'>
-                            <p data-index="1">Probablement mon oeuvre de japanimation favorite. <br><a href="manga.html#aot">Le manga </a>est déjà génial de par son intrigue mais Wit Studio sublime le tout en animation. <br> Les OST, l'animation et les dessins sont sublimes, oeuvre a voir !</p>
-                            <p data-index="2">Simplement le meilleur dans son genre ! <br> Un anime de combat ou l'histoire n'est pas le point fort, mais ou l'évolution des personnages reste intéressante. <br> Un anime a regarder donc principalement pour son animation qui est surement une des meilleures. <br> Après son changement de studio, l'anime perd son plus gros atout: l'ANIMATION et perd donc aussi tout son intérêt.</p>
-                            <p data-index="3">Humblement le meilleur anime de 2019 ! <br> Une adaptation en anime qui a fait carton: <br> le studio Ufotable surprend avec un style graphique assez original, des scènes de combats uniques et des OST fortes. <br> L'histoire a quelques allures de déjà vu, mais la formule est toujours éfficace.</p>
-                            <p data-index="4">Après le meilleur, on aborde un des pires animes de 2019 (selon moi). <br>Une introduction désastreuse, une 3D omniprésente et horrible a regarder. <br> N'ayant pas lu le manga, l'adaptation rend l'histoire plate et fait penser a un autre Isekai qui manque térriblement d'originalité. <br> Un des animés que je déconseille le plus.</p>
-                            <p data-index="5">Un anime pas comme les autres mentionnés précédemment<br> L'histoire est à la fois touchante et divertissante, les OST sont INCROYABLES et la fin donne minimum les larmes aux yeux. <br> Un animé que je recommande fortement dans son genre !</p>
+                <div class="table">
+                    <div class="tableHead">
+                        <div class="row">
+                            <div class="col"><img></div>
+                            <div class="col"><h1>Nom <br><em>(licence)</em></h1></div>
+                            <div class="col"><h1>Manga</h1></div>
+                            <div class="col"><h1>Studio</h1></div>
+                            <div class="col mg"><h1>Note(/10)</h1></div>
                         </div>
+                    </div>
 
-                    </article>
+                    <div class="tableBody">
+                        <div class="row" id="aot">
+                            <div class="col"><img src='./img/shingeki.jpg' /></div>
+                            <div class="col"><h2><a href="manga.html#aot">Shingeki no Kyojin</a> <br> Attack on titan<br><em>(Wakanim)</em></h2></div>
+                            <div class="col"><h2>29 tomes en VO (Kodansha)<br>28 en VF (Pika)</h2></div>
+                            <div class="col"><h2>Wit Studio</h2></div>
+                            <div class="col"><h2>8.47 (MAL)<br>9.2 (Nautijon)<br>9</h2></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><img src="./img/opm.jpg" /></div>
+                            <div class="col"><h2>One Punch Man<br><em>(ADN)</em></h2></div>
+                            <div class="col"><h2>20 tomes en VO (Shueisha)<br>20 en VF (Kurokawa)</h2></div>
+                            <div class="col"><h2>Mad House<br>J.C Staff</h2></div>
+                            <div class="col"><h2>S1 puis S2<br>8.70/7.56 (MAL)<br>8.82/7.73 (Nautijon)<br>8.5/5.5</h2></div>
+                        </div>
+                        <div class="row" id="kny">
+                            <div class="col"><img src="./img/kny.jpg" /></div>
+                            <div class="col"><h2><a href="manga.html#kny">Kimetsu no Yaiba</a><br>Demon Slayer<br><em>(Wakanim)</em></h2></div>
+                            <div class="col"><h2>17 tomes en VO (Shueisha)<br>4 tomes en VF (Panini)</h2></div>
+                            <div class="col"><h2>Ufotable</h2></div>
+                            <div class="col"><h2>8.96 (MAL)<br>9.38 (Nautijon)<br>9</h2></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><img src="./img/arifureta.jpg" /></div>
+                            <div class="col"><h2>Arifureta Shokugyou de Sekai Saikyou<br>(Arifureta)<br><em>(Wakanim)</em></h2></div>
+                            <div class="col"><h2>5 tomes en VO (OVERLAP)<br><em>Pas de sortie Fr</em></h2></div>
+                            <div class="col"><h2>asread<br> WHITE FOX</h2></div>
+                            <div class="col"><h2>6.48 (MAL)<br>7.26 (Nautijon)<br>4</h2></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><img src="./img/anohana.jpg" /></div>
+                            <div class="col"><h2><span>Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai</span><br>(Anohana)<br><em>(Wakanim/Netflix/Amazon)</em></h2></div>
+                            <div class="col"><h2>3 tomes en VO(Shueisha)<br>3 tomes en VF (Panini)<br><em>Oeuvre terminé.</em></h2></div>
+                            <div class="col"><h2>asread<br> WHITE FOX</h2></div>
+                            <div class="col"><h2>8.51 (MAL)<br>8.76 (Nautijon)<br>8.5</h2></div>
+                        </div>
+                        <div class="disclaimer">
+                            <h3><strong>!/*DISCLAiMER*/!</strong><br>Les oeuvres ci-dessus ne sont pas ordre de préférence, mon avis est subjectif c'est a prendre en considération.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <article>
+
+                    <input type="radio" name='check' id="1"><label for="1">1</label>
+                    <input type="radio" name='check' id="2"><label for="2">2</label>
+                    <input type="radio" name='check' id="3"><label for="3">3</label>
+                    <input type="radio" name='check' id="4"><label for="4">4</label>
+                    <input type="radio" name='check' id="5"><label for="5">5</label>
+
+                    <div class='review'>
+                        <p data-index="1">Probablement mon oeuvre de japanimation favorite. <br><a href="manga.html#aot">Le manga </a>est déjà génial de par son intrigue mais Wit Studio sublime le tout en animation. <br> Les OST, l'animation et les dessins sont sublimes, oeuvre a voir !</p>
+                        <p data-index="2">Simplement le meilleur dans son genre ! <br> Un anime de combat ou l'histoire n'est pas le point fort, mais ou l'évolution des personnages reste intéressante. <br> Un anime a regarder donc principalement pour son animation qui est surement une des meilleures. <br> Après son changement de studio, l'anime perd son plus gros atout: l'ANIMATION et perd donc aussi tout son intérêt.</p>
+                        <p data-index="3">Humblement le meilleur anime de 2019 ! <br> Une adaptation en anime qui a fait carton: <br> le studio Ufotable surprend avec un style graphique assez original, des scènes de combats uniques et des OST fortes. <br> L'histoire a quelques allures de déjà vu, mais la formule est toujours éfficace.</p>
+                        <p data-index="4">Après le meilleur, on aborde un des pires animes de 2019 (selon moi). <br>Une introduction désastreuse, une 3D omniprésente et horrible a regarder. <br> N'ayant pas lu le manga, l'adaptation rend l'histoire plate et fait penser a un autre Isekai qui manque térriblement d'originalité. <br> Un des animés que je déconseille le plus.</p>
+                        <p data-index="5">Un anime pas comme les autres mentionnés précédemment<br> L'histoire est à la fois touchante et divertissante, les OST sont INCROYABLES et la fin donne minimum les larmes aux yeux. <br> Un animé que je recommande fortement dans son genre !</p>
+                    </div>
+
+                </article>
             </div>
         </main>
         <footer>
