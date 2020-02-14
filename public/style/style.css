@@ -165,7 +165,7 @@ svg:hover {
     border-radius: 25%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
     main {
         height: 82vh;
@@ -189,15 +189,16 @@ svg:hover {
     }
 
     .container a {
-        min-width: 200px;
+        min-width: 150px;
         width: 30vw;
-        max-width: 65%;
+        max-width: 200px;
     }
 }
 
 @media screen and (min-width: 1300px){
     
     .container a {
+        min-width: 250px;
         width: 30vw;
         max-width: 50%;
     }
