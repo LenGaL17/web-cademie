@@ -71,8 +71,9 @@ header a:hover {
 input[type='radio'] {display: none;}
 
 main {
-    height: 80vh;
+    height: 82vh;
     min-height: 650px;
+    padding: 35px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,9 +122,10 @@ input + .box + .content {
     text-decoration: none;
     color: #ca3e47;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    min-width: 35px;
+    min-height: 35px;
     max-width: 40px;
+    max-height: 40px;
     border: 3px solid #ca3e47;
     display: flex;
     justify-content: center;
@@ -164,6 +166,7 @@ nav > a:focus {
 
 .slides h2 {
     text-decoration: underline;
+    text-align: center;
 }
 
 .slides hr {
@@ -203,13 +206,19 @@ nav > a:focus {
 #id7 .img {background-image: url('../img/studio/madhouse/madhouse.svg');} #id10 .img {background-image: url('../img/studio/wit/Wit_studio.png');} 
 
 .right > p {
-    font-size: 18px;
+    font-size: 17.5px;
     width: 90%;
+    text-align: center;
 }
 
 .second {
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+iframe {
+    max-width: 440px;
+    max-height: 250px;
 }
 
 .third {
@@ -219,6 +228,7 @@ nav > a:focus {
 
 .third .anime {
     display: grid;
+    height: 75%;
     grid-template-columns: repeat(5, 0.85fr);
     align-items: center;
     justify-items: center;
@@ -227,6 +237,7 @@ nav > a:focus {
 
 .third .anime figure > figcaption {
     height: 50px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -275,4 +286,117 @@ svg:hover {
     transform: scale(1.1);
     box-shadow: 10px 5px 5px #414141;
     border-radius: 25%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .box {
+        width: 100%;
+    }
+
+    input + .box + .content {
+        width: 90%;
+    }
+
+    input:checked + .box + .content {
+        height: 500px;
+    }
+
+    .content > nav {
+        height: 4.5vh;
+        width: 33vw;
+    }
+
+    .slides h2 {
+        font-size: 20px;
+    }
+
+    .slides p {
+        font-size: 3vw;
+    }
+
+    .left .img {
+        width: 125px;
+        min-width: 75px;
+        height: 125px;
+        min-height: 75px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 50%;
+    }
+
+    .third .anime figure > figcaption {
+        font-size: 2.8vw;
+    }
+
+    .third .anime img {
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 520px) {
+    .box {
+        width: 100%;
+    }
+
+    input + .box + .content {
+        width: 90%;
+    }
+
+    .slides h2 {
+        font-size: 25px;
+    }
+
+    .slides p {
+        font-size: 2.7vw;
+    }
+
+    .left .img {
+        width: 175px;
+        min-width: 125px;
+        height: 175px;
+        min-height: 125px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 70%;
+    }
+
+    .third .anime figure > figcaption {
+        font-size: 2.9vw;
+    }
+
+}
+
+@media screen and (min-width: 521px) and (max-width: 850px) {
+    .box {
+        width: 100%;
+    }
+
+    input + .box + .content {
+        width: 90%;
+    }
+
+    .slides p {
+        font-size: 13.5px;
+    }
+
+    .left .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 70%;
+    }
+
+    .third .anime figure > figcaption {
+        font-size: 2.5vw;
+    }
+
 }
