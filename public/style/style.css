@@ -113,7 +113,7 @@ main {
 }
 
 .box {
-    border-radius: 15px;
+    border-radius: 7.5px;
     padding: 0.65rem;
     width: 100%;
     margin: 5px;
@@ -136,7 +136,7 @@ main {
 .box img {
     height: 80%;
     width: 90%;
-    border-radius: 15px;
+    border-radius: 7.5px;
 }
 
 footer {

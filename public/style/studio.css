@@ -69,9 +69,13 @@ header a:hover {
 }
 
 input[type='radio'] {display: none;}
+a, a:link {
+    text-decoration: underline;
+    color: #ca3e47;
+}
 
 main {
-    height: 82vh;
+    height: 85vh;
     min-height: 650px;
     padding: 35px 0;
     display: flex;
@@ -93,6 +97,13 @@ main {
     border-radius: 15px;
     border: 2px solid #313131;
     box-shadow: inset 0px 0px 14px -3px crimson;
+}
+
+label.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ca3e47;
 }
 
 input + .box + .content {
@@ -244,6 +255,11 @@ iframe {
 .third .anime img {
     width: 90%;
 }
+
+/* .third .anime img:hover {
+    transform: scale(1.5);
+    ???
+} */
 
 .slides::-webkit-scrollbar {
     width: 5px;

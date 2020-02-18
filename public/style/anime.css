@@ -188,16 +188,13 @@ main {
 
 .tableBody::-webkit-scrollbar {
     width: 10px;
-    background: #C3BDD9;
+}
+.tableBody::-webkit-scrollbar-thumb {
+    background: #212121;
     border-radius: 10px;
 }
 .tableBody::-webkit-scrollbar-track {
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-.tableBody::-webkit-scrollbar-thumb {
-    background: rgb(153, 150, 165);
-    border-radius: 10px;
+    background: #525252;
 }
 
 input[type="radio"] {
