@@ -201,6 +201,13 @@ input[type="radio"] {
     display: none;
 }
 
+body > main > div > h2 {
+    color: #ca3e47;
+    margin: 10px 0;
+    text-decoration: underline;
+    font-family: 'SourceSans', sans-serif;
+}
+
 article {
     display: grid;
     grid-template-rows: 30px auto;
