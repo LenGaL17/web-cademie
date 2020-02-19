@@ -138,6 +138,7 @@ main {
     overflow: auto;
     display: block;
     background-color: #414141;
+    scrollbar-width: thin;
 }
 
 .tableBody > .row {
