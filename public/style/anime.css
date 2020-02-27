@@ -255,8 +255,15 @@ article input:checked + label {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#default {
+    display: block;
+}
+
 
 /* replancement pour le onclick */
+article input:checked + label ~ .review > #default {
+    display: none;
+}
 article input[id="1"]:checked + label ~ .review > p[data-index="1"] {
     display: block;
 }
